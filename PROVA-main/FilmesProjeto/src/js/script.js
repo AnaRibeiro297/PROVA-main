@@ -54,9 +54,9 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   });
- const filmeSelect = document.querySelector('#filme'); // busca pag do campo que possui o ID filmes.
+ const filmeSelect = document.querySelector('#filme'); 
 
-if (filmeSelect) { // map trasnforma cada objeto de filmes do seu arry em uma frase no formato de tag html .
+if (filmeSelect) { 
   const opcoesFilmes = filmes
     .map((filme) => `<option value="${filme.titulo} ">${filme.titulo}</option>`)
     .join('');
